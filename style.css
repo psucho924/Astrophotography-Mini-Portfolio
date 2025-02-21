@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px ;
+}
+
+/* navbar */
+.nav{
+    height: 10rem;
+    /* background-image: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: linear-gradient(to right,black, #000033, black);
+    /* background-color: black; */
+    color: white;
+}
+.brand{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    
+}
+.title{
+   font-size: 2rem; 
+}
+.modes{
+    display: flex;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+.options{
+    padding-left: 2rem;
+    display: flex;
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+.navigators{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+.navi1:hover{
+    cursor: pointer;
+    color:rgb(196, 196, 196);
+}
+.modes i:hover{
+    cursor: pointer;
+    color:rgb(196, 196, 196);
+}
+.options i:hover{
+    cursor: pointer;
+    color:rgb(196, 196, 196);
+}
+
+/* utility: */
+.ibm-plex-mono-bold {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .kanit-bold {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
